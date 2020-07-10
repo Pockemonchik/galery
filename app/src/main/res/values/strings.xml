@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Галерея МосУ МВД</string>
+    <string name="title_home">Картины</string>
+    <string name="title_dashboard">Распознать</string>
+    <string-array name="headtitles">
+
+
+        <item>Фото</item>
+        <item>О произведении</item>
+
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="example"> У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+
+</resources>

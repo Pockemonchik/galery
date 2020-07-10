@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Photo.ArticleFragment"
+    android:background="#000000"
+    android:clickable="true"
+    android:elevation ="3dp">
+
+    <VideoView
+        android:id="@+id/videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="#CC000000"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".ui.Photo.ArticleFragment">-->
+<!--    <VideoView android:id="@+id/videoPlayer"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"/>-->
+
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="16dp"-->
+
+<!--            >-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageDisplay"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="238dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textBody"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/textViewColor"-->
+<!--                    android:gravity="center"-->
+
+
+<!--                    />-->
+<!--              -->
+
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+
+<!--</LinearLayout>-->
